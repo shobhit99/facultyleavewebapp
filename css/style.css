@@ -1,0 +1,157 @@
+/* remove rounding from cards, buttons and inputs  */
+.card, .btn,  .form-control { border-radius: 0; }
+
+.card-header{
+    border:none;
+}
+
+.login{
+
+    border-radius: 2px;
+    border-color: gray;
+}
+.jumbotron, .card{
+    background-color: rgba(255, 255, 255);
+}
+body, html {
+    
+  height: 100%; 
+  margin: 0;
+}
+.bg{
+
+    /* background-image: url("../images/back2.jpg"); 
+    background-image: linear-gradient(-90deg, rgb(27, 155, 214), rgb(63, 180, 235));*/
+    background-color: #2196F3;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%; 
+  opacity: 0.8;
+  align-items: center;
+  
+
+}
+
+.bg{
+    display:flex;
+  align-items:center;
+}
+.card-footer, .card-header{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+.card{
+    margin: 0;
+    border: 0;
+}
+#login{
+    size: 100%;
+}
+.btn{
+    box-shadow: 0 2px 5px rgba(0,0,0,.16),0 2px 10px rgba(0,0,0,.12);
+}
+#login:hover{
+    background-color: rgb(33, 152, 221);
+    border-color: rgb(33, 152, 221);
+}
+#register:hover{
+    background-color: rgb(33, 152, 221);
+    border-color: rgb(33, 152, 221);
+}
+.jumbotron{
+    min-height: 500px;
+    box-shadow: 0px 0px 10px 2px rgb(63, 63, 63);
+}
+
+
+/* animation for logo 
+.photo{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+}
+
+.photo img{
+  object-fit: cover;
+  box-shadow: 10px 15px 25px 0 rgba(0,0,0,.2);
+  display: block;
+  transition: all .5s cubic-bezier(0.645, 0.045, 0.355, 1);
+  margin-top: -10px;
+}
+
+.photo:hover img{
+  box-shadow: 1px 1px 10px 0 rgba(0,0,0,.1);
+}
+
+.photo .glow-wrap{
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  margin-top: -10px;
+}
+
+.photo .glow{
+  display: block;
+  position:absolute;
+  width: 40%;
+  height: 200%;
+  background: rgba(255,255,255,.2);
+  top: 0;
+  filter: blur(5px);
+  transform: rotate(45deg) translate(-450%, 0);
+  transition: all .5s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.photo:hover .glow{
+  transform: rotate(45deg) translate(450%, 0);
+  transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.photo:hover img,
+.photo:hover .glow-wrap{
+  margin-top: 0;
+}
+/*end animation */
+
+nobr{ white-space: nowrap }
+
+#forgot:hover{
+    text-decoration: none;
+}
+.createaccount{
+    text-align: center;
+  
+    
+}
+#createacc:hover{
+    text-decoration: none;
+}
+#loginclick:hover{
+    text-decoration: none;
+}
+#panel{
+    padding-top: 40px;
+    padding-bottom: 25px;
+}
+#yourprofilepic{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 4px solid #E35D6A;
+}
+/* Important part */
+#modalbodyandfooter{
+    position: relative;
+    max-height: calc(100vh - 20px);
+    overflow-y: auto;   
+}
+#pictlogo{
+    border: 3px solid rgb(5, 128, 199);
+}
